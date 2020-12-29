@@ -1,0 +1,35 @@
+#text-output {
+  height: 200px;
+  border-radius: 3px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: left;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}
+
+#text-input {
+  min-height: 200px;
+}
+
+.editor .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.active {
+  background: #2ecc40 !important;
+  color: #fff !important;
+}
